@@ -24,6 +24,8 @@ main {
 
 .shopmain {
     padding: 75px;
+    display: flex;
+    height: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
