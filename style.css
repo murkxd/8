@@ -28,6 +28,33 @@ main {
     justify-content: space-around;
 }
 
+.contactsmain {
+    padding: 25px;
+    display: grid;
+    
+}
+
+.contact {
+    min-height: 220px;
+    min-width: 190px;
+    height: 220px;
+    width: 190px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact img {
+    padding: 0;
+    max-width: 150px;
+}
+
+.contact p {
+    padding: 0;
+}
+
 main p {
     padding: 50px;
 }
@@ -52,6 +79,5 @@ main img {
 
 .shop-card img {
     padding: 0;
-    margin: 0;
     max-width: 150px;
 }
