@@ -30,8 +30,11 @@ main {
 
 .contactsmain {
     padding: 25px;
+    padding: 0 15vw 0 15vw;
+    align-items: center;
+    justify-items: center;
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contact {
@@ -39,7 +42,6 @@ main {
     min-width: 190px;
     height: 220px;
     width: 190px;
-    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
